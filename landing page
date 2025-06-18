@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Landing Page</title>
+  <style>
+    :root {
+      --primary-color: #4CAF50;
+      --secondary-color: #f1f1f1;
+      --text-color: #333;
+      --accent-color: #ffffff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: var(--text-color);
+      background-color: var(--secondary-color);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary-color);
+      color: var(--accent-color);
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .hero {
+      background: var(--accent-color);
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background: var(--primary-color);
+      color: var(--accent-color);
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #45a049;
+    }
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 3rem;
+      gap: 2rem;
+    }
+    .info-box {
+      background: white;
+      flex: 1;
+      min-width: 280px;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    footer {
+      background: var(--primary-color);
+      color: var(--accent-color);
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GreenSpark Agency</h1>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Grow Your Business with Us</h1>
+      <p>We help startups and entrepreneurs build an impactful digital presence.</p>
+      <button class="cta-button">Get Started</button>
+    </section>
+
+    <section class="info-section">
+      <div class="info-box">
+        <h3>Design</h3>
+        <p>Beautiful, responsive layouts that attract and convert.</p>
+      </div>
+      <div class="info-box">
+        <h3>Development</h3>
+        <p>Modern code, seamless experience across devices.</p>
+      </div>
+      <div class="info-box">
+        <h3>Marketing</h3>
+        <p>Smart strategies that get you real, lasting growth.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 GreenSpark Agency. All rights reserved.
+  </footer>
+
+</body>
+</html>
